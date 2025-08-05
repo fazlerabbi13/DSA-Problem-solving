@@ -14,11 +14,11 @@ void selectionSort(vector<int>& arr){
     }
 }
 
-// void printArray(vector<int>arr){
-//     for(int &value: arr){
-//         cout<<value<<" ";
-//     }
-// }
+void printArray(vector<int>arr){
+    for(int &value: arr){
+        cout<<value<<" ";
+    }
+}
 
 // int main(){
 
