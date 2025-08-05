@@ -26,19 +26,19 @@ int binarySearch(vector<int> &arr,int x){
     
 }
 
-// int main(){
+int main(){
 
-//     vector<int> arr= {2,3,4,5,10,40};
-//     int x=10;
+    vector<int> arr= {2,3,4,5,10,40};
+    int x=10;
 
-//     int result = binarySearch(arr,x);
+    int result = binarySearch(arr,x);
 
-//     if(result == -1){
-//         cout<<"Element not found in array";
-//     }
-//     else{
-//         cout<<"Element found at index "<< result;
-//     }
+    if(result == -1){
+        cout<<"Element not found in array";
+    }
+    else{
+        cout<<"Element found at index "<< result;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
