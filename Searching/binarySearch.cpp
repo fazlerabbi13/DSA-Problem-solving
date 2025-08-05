@@ -13,6 +13,7 @@ int binarySearch(vector<int> &arr,int x){
         if(arr[mid]==x){
             return mid;
         }
+
         if(arr[mid]<x){
             low= mid+1;
         }
