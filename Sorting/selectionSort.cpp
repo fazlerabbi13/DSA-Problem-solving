@@ -20,10 +20,10 @@ void printArray(vector<int>arr){
     }
 }
 
-// int main(){
+int main(){
 
-//     vector<int>arr={2,7,0,4,1,5,3,7,9};
-//     selectionSort(arr);
-//     printArray(arr);
-//     return 0;
-// }
+    vector<int>arr={2,7,0,4,1,5,3,7,9};
+    selectionSort(arr);
+    printArray(arr);
+    return 0;
+}
